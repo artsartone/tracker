@@ -9,9 +9,9 @@ from telegram.ext import (
     ConversationHandler,
 )
 
-TELEGRAM_TOKEN = "7025976523:AAGYPV3GDNMTx7wwJtwAZuyOWgvai-M2vNE"
-TRACKER_TOKEN = "y0__xDX8rD7Axie6zQgvOuFkxLUi6NzfSchRjxRhiap2xaK6FrMqA"
-TRACKER_ORG_ID = "bpfbu7h2q3i8e83avh49"
+TELEGRAM_TOKEN = "bot_token"
+TRACKER_TOKEN = "oauth_token"
+TRACKER_ORG_ID = "org_id"
 TRACKER_API_URL = "https://api.tracker.yandex.net/v3/issues/"
 
 TRACKER_HEADERS = {
