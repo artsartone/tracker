@@ -79,11 +79,9 @@ async def add_comment_in_task(update: Update, context: ContextTypes.DEFAULT_TYPE
 
 
 async def handle_reply(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    # Сначала извлекаем task_key
     task_key = await extract_from_last_line(update, context)
 
     if task_key:
-        # Затем обрабатываем комментарий
         await add_comment_in_task(update, context)
 
 
